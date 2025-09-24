@@ -53,7 +53,7 @@ img/
 
 ## Autor
 
-- [jonaaxsic](https://github.com/jonaaxsic)
+[![GitHub](https://img.shields.io/badge/GitHub-jonaaxsic-black?logo=github)](https://github.com/jonaaxsic)
 
 ---
 
