@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piedra, Papel o Tijeras</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Piedra, Papel o Tijeras</h1>
+
+    <div class="scoreboard">
+        <span>Victorias: <span id="victorias">0</span></span>
+        <span>Empates: <span id="empates">0</span></span>
+        <span>Derrotas: <span id="derrotas">0</span></span>
+    </div>
+
+    <div class="hands">
+        <img id="mano-jugador" src="./img/PiedraP1.png" alt="Mano jugador">
+        <img id="mano-cpu" src="./img/piedraCpu.png" alt="Mano CPU">
+    </div>
+
+    <div class="opciones">
+        <button onclick="jugar('piedra')">✊ Piedra</button>
+        <button onclick="jugar('papel')">✋ Papel</button>
+        <button onclick="jugar('tijeras')">✌️ Tijeras</button>
+    </div>
+
+    <p id="resultado"></p>
+
+    <div class="acciones">
+        <button id="reset">🔄 Reiniciar Marcador</button>
+        <button id="toggle-theme">🌙 Cambiar tema</button>
+    </div>
+
+    <h2>Historial</h2>
+    <div id="historial"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
