@@ -7,6 +7,12 @@
 
 Juego clásico de Piedra, Papel o Tijeras con animaciones, historial y cambio de tema. ¡Compite contra la CPU y guarda tus resultados!
 
+## Juega en línea
+
+Accede al juego desde tu navegador:  
+👉 [jonaaxsic.github.io/Piedra-papel-tijera/](https://jonaaxsic.github.io/Piedra-papel-tijera/)
+
+
 ## Características
 
 - Animaciones de manos al jugar
